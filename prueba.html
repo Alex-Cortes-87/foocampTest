@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="landing">
+    <div class="landingPseudocontainer">
+        <div id="welcome" class="landingContainer">
+            <div>
+                <h1 class="headline1">Tarjeta de regalo</h1>
+                <hr>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button id="sendCard" onclick="abrirModalEnvio()">Enviar Tarjeta</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="confirmationModal" class="modal">
+        <div class="pseudocontainer">
+            <div id="confirmationModalContainer" class="modalContainer">
+                <div>
+                    <h2>Deseas enviar la tarjeta?</h2>
+                    <hr>
+                    <p>Escribe el nombre de la persona a quien quieres enviar la tarjeta</p>
+                    <input type="text" id="nameField" placeholder="Escribe un nombre...">
+                </div>
+            </div>
+            <button id="cancel" onclick="cerrarModalEnvio()">Cancelar</button>
+            <button id="continue" onclick="enviarTarjeta()">Continuar</button>
+        </div>
+    </div>
+
+    <div id="sentCard" class="sentCardContainer">
+        <h1 id="sentCardHeadline" class="headline1"></h1>
+        <hr>
+    </div>
+</div>
+
+<script src="functions.js"></script>
+</body>
+</html>

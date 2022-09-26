@@ -1,0 +1,225 @@
+#landing {
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 600px;
+    width: 70%;  
+  }
+
+  .landingPseudocontainer {
+    margin: auto;
+    padding: 100px 0px 100px 0px;
+    height: 410px;
+    width: 100%;
+    background-color: rgb(255,180,172);
+  }
+
+  
+  .landingContainer {
+    margin: auto;
+    height: 400px;
+    width: 45%;
+    background-clip: content-box;
+    background-color: rgb(0,0,0);
+    border-radius: 25px;
+  }
+
+  .headline1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: rgb(255,255,255);
+    font-size: 50px;
+    text-align: left;
+}
+
+.landingContainer div hr {
+  border-color: rgb(246,49,141);
+  border-width: 2px;
+  border-radius: 5px;
+  margin-right: 350px;
+}
+
+.landingContainer div p {
+  color: rgb(236,236,236);
+  font-family: "Times New Roman";
+  font-size: 22px;
+  text-align: left;
+}
+
+#welcome div {
+    padding: 61px;
+
+}
+
+#sendCard {
+  height: 40px;
+  width: 200px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: rgb(246,49,141);
+  font-family: 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+}
+
+#sendCard:hover {
+  background-color: white;
+  color: rgb(246,49,141);
+}
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+  }
+
+  .pseudocontainer {
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    width: 620px;
+    height: 350px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 10px 10px 20px 10px rgba(96,90,86);
+    padding: 10px 15px 5px 15px;
+    background-clip: padding-box;
+  
+  }
+  
+  .modalContainer {
+    margin-top: 50 px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 300px;
+    width: 620px;
+    border-radius: 10px; 
+    background-color: rgb(91,231,168);
+  }
+
+  .modalContainer div {
+    padding: 60px 60px 60px 60px;
+  }
+
+  .modalContainer div h2 {
+    color: rgb(0,0,0);
+    font-size: 40px;
+    text-align: left;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .modalContainer div hr {
+    border-color: rgb(96,90,86);
+    border-width: 2px;
+    border-radius: 5px;
+    margin-right: 420px;
+  }
+
+  .modalContainer div p {
+    color: rgb(0,0,0);
+    font-family: "Times New Roman";
+    font-size: 25px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+ #nameField {
+    color: rgb(96,90,86);
+    font-size: 25px;
+    text-align: left;
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 0px;
+    border-radius: 10px;
+  }
+
+  #errorParagraph {
+    color: rgb(255,122,92);
+    font-family: "Times New Roman";
+    font-size: 15px;
+    text-align: left;
+    margin-top: 4px;
+  }
+
+  #cancel {
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: rgb(255,180,172);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: rgb(61,57,49);
+    font-size: 20px;
+  }
+
+  #cancel:hover {
+    background-color: rgb(96,90,86);
+    color: white;
+  }
+
+  #continue {
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(246,49,141);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+  }
+
+  #continue:hover {
+    background-color: white;
+    color: rgb(246,49,141);
+  }
+  
+  .sentCardContainer {
+      display: none;
+  }
+
+  #sentCard {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-clip: content-box;
+    height: 500px;
+    width: 60%;
+    background-color: rgb(78,240,55);
+  }
+
+  #sentCardHeadline {
+    color: black;
+    font-size: 50px;
+    text-align: left;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-top: 150px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  #sentCard hr {
+  border-color: rgb(242,242,242);
+  border-width: 2px;
+  border-radius: 5px;
+  margin-left: 160px;
+  margin-right: 160px;
+  }
